@@ -1,5 +1,5 @@
 <section class="cart-show">
-
+<%if cart.size > 0 %>
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
@@ -31,7 +31,6 @@
       </tfoot>
     </table>
   </div>
-
   <div class="row">
     <div class="col-xs-12">
       <%= form_tag orders_path do %>
@@ -48,5 +47,12 @@
       <% end %>
     </div>
   </div>
+<% else %>
+  <div class="alert alert-warning" role="alert">
+  <h1>Hey there! Nothing to see here.</h1>
+  <h4>Please add some items to your cart then come back.</h4>
+  <button class="stripe-button"><a href="/"> Home </a></button>
+  </div>
+<%end%>
 
 </section>
