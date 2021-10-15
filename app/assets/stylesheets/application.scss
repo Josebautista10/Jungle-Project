@@ -5,10 +5,20 @@
 
 // App
 @import "products";
+@import "registration";
 
 // Global
 body {
   padding-top: 70px;
+}
+
+main.container {
+  div.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
 }
 
 // Bootstrap adjustments
