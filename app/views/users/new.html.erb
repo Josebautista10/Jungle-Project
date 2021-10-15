@@ -1,0 +1,12 @@
+<h1>Registration</h1>
+
+<div class="registration">
+  <%= form_for @user do |f| %>
+  <div class="form">
+    Name: <%= f.text_field :name %>
+    Email: <%= f.text_field :email %>
+    Password: <%= f.password_field :password %>
+    Password Confirmation: <%= f.password_field :password_confirmation %>
+    <%= f.submit "submit"%>
+    <div>
+  <% end %>
