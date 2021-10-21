@@ -31,3 +31,22 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Jungle App
+#### Home
+![Home](app/assets/images/home-page.png)
+
+#### Product Details
+![Product details](app/assets/images/product.png)
+
+#### Cart
+![Cart](app/assets/images/cart.png)
+
+#### Admin Dashboard
+![Dashboard](app/assets/images/dashboard.png)
+
+#### Admin Products
+![Products](app/assets/images/products.png)
+
+#### Admin Categories
+![Categories](app/assets/images/categories.png)
